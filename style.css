@@ -1,0 +1,42 @@
+
+/* arka plan */
+.turkey{
+    width: 600px;
+    height: 400px;
+    background: red;
+}
+
+
+/* yıldız */
+.turkey:after{
+    width: 26px;
+    height: 120px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    padding-left: 134px;
+    padding-top: 40px;
+    top: 120px;
+    left: 157px;
+    content: "★";
+    font-size: 92px;
+    color: white;
+    -webkit-transform: rotate(-18deg) ;
+    -moz-transform: rotate(-18deg);
+    -o-transform: rotate(-18deg);
+	transform: rotate(-18deg);
+}
+
+
+/* hilal */
+.turkey:before {
+    background: white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 112px;
+    display: block;
+    content: "";
+}
